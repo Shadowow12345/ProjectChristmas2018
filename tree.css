@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+#top {
+    width: 100%;
+    padding-top:20px;
+    
+}
+.moon {
+    border-radius: 100%;
+    width: 100px;
+    height: 80px;
+    background-color: #F7918C;
+    position: absolute;
+    left: 50px;
+}
+
+.tree1 {
+    position: absolute;
+    right:0px;
+    bottom: 70px;
+    z-index: 4;
+}
+
+.snowman1 {
+    position: absolute;
+    left:0px;
+    bottom: 40px;
+    z-index: 10;
+
+}
+
+.snowland {
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+}
